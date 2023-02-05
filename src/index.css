@@ -11,6 +11,73 @@ sans-serif;
 -moz-osx-font-smoothing: grayscale;
 }
 
+.row {
+    display: flex;
+    gap: 10%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+a:hover {
+    background-color: black;
+    color: #fff
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 1rem;
+    color: #333;
+    text-decoration: none;
+    width: 100%;
+    word-wrap: break-word; /* Enable word wrapping */
+  }
+  
+
+.box {
+    text-align: center;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.dropdown-content {    background-color: #fff;
+    max-width: 200px; /* Maximum width of dropdown content */
+    width: auto;
+    max-height: 200px; /* Maximum height of dropdown content */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    z-index: 1;
+    right: 0; /* Position dropdown content to the right */
+    top: 0; /* Align dropdown content with the top of the button */
+    text-align: center; /* Center text within dropdown content */
+    flex-direction: column;
+  }
+
+.scrollMenu {
+
+
+    border: 2px solid black;
+    max-width: 250px;
+    overflow:auto;
+    width: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+button {
+    margin: 5%;
+}
+  
+input {
+    width: 20%;
+}
+
 code {
 font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 monospace;
